@@ -1,7 +1,20 @@
+:root {
+    --my-bg-top: rgb(58, 84, 109);
+    --my-bg-bottom: rgb(44, 62, 80);
+}
+
 .my-bg-teal {
     background-color: var(--bs-teal);
 }
 
 .hero {
     width: 250px;
+}
+
+.top-footer {
+    background-color: var(--my-bg-top);
+}
+
+.bottom-footer {
+    background-color: var(--my-bg-bottom);
 }

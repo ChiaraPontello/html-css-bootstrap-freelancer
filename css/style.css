@@ -1,3 +1,7 @@
 .my-bg-teal {
     background-color: var(--bs-teal);
 }
+
+.hero {
+    width: 250px;
+}

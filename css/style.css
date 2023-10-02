@@ -7,6 +7,19 @@
     background-color: var(--bs-teal);
 }
 
+.my-star:after, .my-star:before {
+    content: '';
+    display: block;
+    width: 15%;
+    background-color: white;
+    height: 3px;
+    margin: 0 10px;
+}
+
+section.bg-white .my-star:after, section.bg-white .my-star:before {
+    background-color: black;
+}
+
 .hero {
     width: 250px;
 }

@@ -8,8 +8,12 @@
 }
 
 .hero {
-    width: 200px;
+    width: 250px;
 }
+
+
+
+
 
 .top-footer {
     background-color: var(--my-bg-top);
